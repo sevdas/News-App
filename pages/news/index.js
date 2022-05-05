@@ -12,9 +12,10 @@ export default function NewsPage() {
                         NextJS Is A Great Framework
                     </Link>
                 </li>
-                <li><a href="/news/something-else">
-                    Something Else
-                </a>
+                <li>
+                    <Link href="/news/something-else">
+                        Something Else
+                    </Link>
                 </li>
             </ul>
         </Fragment>
